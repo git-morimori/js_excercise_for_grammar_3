@@ -26,8 +26,8 @@ while (num < 100) {
 //       - answerとinputの値が同じだったら「正解です！」とalertで表示する
 //     - 正解が出るまでpromptで問題文を出し続ける
 //     - 正解が出たらWhileループを抜ける
-let question = 'パンはパンでも食べられないパンは？';
-let answer = 'フライパン';
+const question = 'パンはパンでも食べられないパンは？';
+const answer = 'フライパン';
 let input;
 while (answer !== input) {
     input = prompt(question);
